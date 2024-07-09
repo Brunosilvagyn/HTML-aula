@@ -6,22 +6,23 @@
     <title>Formularios</title>
 </head>
 <body>
-
 <h1>Formularios</h1>    
 <form>
-    <label for="nome completo" nome completo: </label>
-    <input type="text" placeholder="Seu nome" />
+    <label for="nome completo"> nome completo: </label>
+    <input type="text" id="nome" name="nome" required> <br>
     <br/>
-    <label for="Seu email" Seu email: <label/>
-    <input type="text" placeholder= "email" />
+    <label for="Seu email" > Seu email: </label> 
+    <input type="email" id="email" name="email" required> <br>
     <br />
-    <label for="telefone" tel </label> 
-    <input type="tel" placeholder="Seu telefone" /> </form> 
+    <label for="telefone"> telefone: </label>
+    <input type="tel" id="telefone" name="telefone" required> <br> 
     <br/>
-<input type="password" placeholder="senha" />
+    <label for="senha"> senha: </label>
+<input type="password" id=senha name="senha" required> <br> 
+<br /> 
 
     <button type="submit">
-     enviar
+        enviar
     </button>   
 </form>
 </body>
